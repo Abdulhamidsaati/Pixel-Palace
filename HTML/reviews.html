@@ -1,0 +1,102 @@
+<!-- 
+    Abdulhamid mahmoud saati
+     2135877
+     20/9/2024
+     CS1
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews - Pixel Palace</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pixel Palace</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Game Catalog</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Reviews</li>
+            </ol>
+        </nav>
+
+        <h2>Game Reviews</h2>
+
+        <section id="reviews-list">
+            <article class="review">
+                <h3>Super Mario Bros. (NES)</h3>
+                <div class="review-meta">
+                    <span class="reviewer">By: John Doe</span>
+                    <span class="rating">★★★★★</span>
+                </div>
+                <blockquote>
+                    <p>A timeless classic that defined platform gaming. The tight controls and inventive level design
+                        still
+                        hold up today. A must-play for any retro gaming enthusiast!</p>
+                </blockquote>
+            </article>
+
+            <article class="review">
+                <h3>The Legend of Zelda: Ocarina of Time (N64)</h3>
+                <div class="review-meta">
+                    <span class="reviewer">By: Jane Smith</span>
+                    <span class="rating">★★★★★</span>
+                </div>
+                <blockquote>
+                    <p>An epic adventure that set the standard for 3D action RPGs. The story, music, and gameplay are
+                        all
+                        top-notch. It's amazing how well this game has aged.</p>
+                </blockquote>
+            </article>
+        </section>
+
+        <section id="submit-review">
+            <h3>Submit Your Review</h3>
+            <form action="#" method="post">
+                <label for="game-name">Game Name:</label>
+                <input type="text" id="game-name" name="game-name" required>
+
+                <label for="reviewer-name">Your Name:</label>
+                <input type="text" id="reviewer-name" name="reviewer-name" required>
+
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="2">2 Stars</option>
+                    <option value="1">1 Star</option>
+                </select>
+
+                <label for="review-text">Your Review:</label>
+                <textarea id="review-text" name="review-text" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pixel Palace. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
