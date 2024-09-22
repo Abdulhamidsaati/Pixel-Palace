@@ -1,13 +1,13 @@
-<!-- 
-    Abdulhamid mahmoud saati
-     2135877
-     20/9/2024
-     CS1
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- 
+    Name: Abdulhamid mahmoud saati
+    ID: 2135877
+    Date: 20/9/2024
+    Course: CPCS403
+    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart - Pixel Palace</title>
@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- Header section with main navigation -->
     <header>
         <h1>Pixel Palace</h1>
         <nav>
@@ -30,6 +31,7 @@
     </header>
 
     <main>
+        <!-- Breadcrumb navigation -->
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
@@ -39,6 +41,7 @@
 
         <h2>Your Shopping Cart</h2>
 
+        <!-- Cart items section -->
         <section id="cart-items">
             <table class="cart-table">
                 <thead>
@@ -51,6 +54,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- the table body which includes the reviews -->
                     <tr>
                         <td>Super Mario Bros. (NES)</td>
                         <td>$29.99</td>
@@ -82,15 +86,17 @@
             </table>
         </section>
 
-        <section id="cart-summary">
+        <!-- Order summary section -->
+        <section id="cart-summary" class="section">
             <h3>Order Summary</h3>
-            <p>Subtotal: $179.97</p>
-            <p>Shipping: $10.00</p>
-            <p><strong>Total: $189.97</strong></p>
+            <p>Subtotal: <span class="price">$179.97</span></p>
+            <p>Shipping: <span class="price">$10.00</span></p>
+            <p><strong>Total: <span class="price">$189.97</span></strong></p>
             <button id="checkout-button">Proceed to Checkout</button>
         </section>
     </main>
 
+    <!-- Footer section -->
     <footer>
         <p>&copy; 2024 Pixel Palace. All rights reserved.</p>
     </footer>

@@ -1,27 +1,26 @@
-<!-- 
-    Abdulhamid mahmoud saati
-     2135877
-     20/9/2024
-     CS1
--->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- 
+    Name: Abdulhamid mahmoud saati
+    ID: 2135877
+    Date: 20/9/2024
+    Course: CPCS403
+    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Catalog - Pixel Palace</title>
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
-
 <body>
+    <!-- Header section with main navigation -->
     <header>
         <h1>Pixel Palace</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="catalog.html">Game Catalog</a></li>
-                <li><a href="services.html">services</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="cart.html">Shopping Cart</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -30,6 +29,7 @@
     </header>
 
     <main>
+        <!-- Breadcrumb navigation -->
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
@@ -38,73 +38,95 @@
         </nav>
 
         <h2>Game Catalog</h2>
-        <div class="catalog-grid">
-            <div class="catalog-item">
-                <img src="../image/game1.jpg" alt="Super Mario Bros.">
+
+        <!-- Game catalog grid -->
+        <section class="catalog-grid">
+            <!-- Individual game items -->
+            <article class="catalog-item">
+                <img src="../image/game1.jpg" alt="Super Mario Bros." class="align-center">
                 <h3>Super Mario Bros (NES)</h3>
-                <p class="price">$29.99</p>
+                <p>The classic platformer that defined a generation of gaming. Join Mario on his quest to save Princess Toadstool!</p>
+                <p class="price"><strong>$29.99</strong></p>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/game2.jpg" alt="The Legend of Zelda">
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/game2.jpg" alt="The Legend of Zelda" class="align-center">
                 <h3>The Legend of Zelda (NES)</h3>
-                <p class="price">$94.99</p>
+                <p>Embark on an epic adventure in the land of Hyrule. Save Princess Zelda and defeat the evil Ganon!</p>
+                <p class="price"><strong>$94.99</strong></p>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/game7.jpg" alt="The Legend of Zelda ocarina of time">
-                <h3>The Legend of Zelda ocarina of time (nintendo 64)</h3>
-                <p class="price">$34.99</p>
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/game7.jpg" alt="The Legend of Zelda: Ocarina of Time" class="align-center">
+                <h3>The Legend of Zelda: Ocarina of Time (Nintendo 64)</h3>
+                <p>Experience the groundbreaking 3D adventure that revolutionized action RPGs. Travel through time to save Hyrule!</p>
+                <span class="price">$34.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/game3.jpg" alt="Metroid">
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/game3.jpg" alt="Metroid" class="align-center">
                 <h3>Metroid (NES)</h3>
-                <p class="price">$24.99</p>
+                <p>Explore the alien world of Zebes as the bounty hunter Samus Aran in this classic action-adventure game.</p>
+                <span class="price">$24.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/psp-handheld.jpg" alt="PlayStation portable (PSP)">
-                <h3>PlayStation portable (PSP)</h3>
-                <p class="price">$89.99</p>
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/psp-handheld.jpg" alt="PlayStation Portable (PSP)" class="align-center">
+                <h3>PlayStation Portable (PSP)</h3>
+                <p>Sony's revolutionary handheld console. Play your favorite games on the go with stunning graphics!</p>
+                <span class="price">$89.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/nes-console.jpg" alt="Nintendo Entertainment System">
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/nes-console.jpg" alt="Nintendo Entertainment System" class="align-center">
                 <h3>Nintendo Entertainment System (NES)</h3>
-                <p class="price">$99.99</p>
+                <p>The console that revived the gaming industry. Relive the 8-bit era with this iconic system!</p>
+                <span class="price">$99.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/game4.jpg" alt="Final Fantasy">
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/game4.jpg" alt="Final Fantasy" class="align-center">
                 <h3>Final Fantasy (NES)</h3>
-                <p class="price">$104.99</p>
+                <p>The game that launched a legendary RPG series. Embark on an epic quest to restore balance to the world!</p>
+                <span class="price">$104.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/game5.jpg" alt="crash bandicoot">
-                <h3>crash bandicoot (PlayStation)</h3>
-                <p class="price">$14.99</p>
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/game5.jpg" alt="Crash Bandicoot" class="align-center">
+                <h3>Crash Bandicoot (PlayStation)</h3>
+                <p>Join Crash on his wild adventures through time and space in this beloved 3D platformer!</p>
+                <span class="price">$14.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/game6.jpg" alt="Persona 3">
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/game6.jpg" alt="Persona 3" class="align-center">
                 <h3>Persona 3 (PlayStation 2)</h3>
-                <p class="price">$54.99</p>
+                <p>Dive into this unique blend of dungeon crawling and social simulation. Forge bonds and summon powerful Personas!</p>
+                <span class="price">$54.99</span>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <div class="catalog-item">
-                <img src="../image/sonic-genesis.jpg" alt="Sonic the Hedgehog for Sega Genesis">
+            </article>
+
+            <article class="catalog-item">
+                <img src="../image/sonic-genesis.jpg" alt="Sonic the Hedgehog for Sega Genesis" class="align-center">
                 <h3>Sonic the Hedgehog (Sega Genesis)</h3>
-                <p class="price">$29.99</p>
+                <p>Speed through levels as Sega's iconic blue hedgehog. Experience the game that started it all!</p>
+                <p class="price"><strong>$29.99</strong></p>
                 <button class="add-to-cart">Add to Cart</button>
-            </div>
-        </div>
+            </article>
+        </section>
     </main>
 
+    <!-- Footer section -->
     <footer>
         <p>&copy; 2024 Pixel Palace. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
